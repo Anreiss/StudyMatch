@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    position: relative
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #fed766;
+}
+
+.cabecalho_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.cabecalho_titulo {
+    color: #fed766;
+    font-family: 'Righteous', cursive;
+}
+
+.cabecalho_subtitulo {
+    font-family: 'Rubik', sans-serif;
+}
+
+.cabecalho_menu {
+    display: flex;
+}
+
+.cabecalho_link {
+    color: #fed766;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+    gap: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 80px 450px 130px 450px;
+    gap: 20px;
+}
+
+.conteudo_princ {
+    margin-top: 25px;
+}
+
+.conteudo_principal {
+    border: 3px solid #fed766;
+    padding: 20px 20px 30px 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.cont_imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos {
+    padding: 0px;
+    font-weight: 0;
+    font-size: 44px;
+    margin-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    color: #fed766; 
+}
+
+.titulo_texto {
+    padding: 0px;
+    font-weight: 0;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    color: #fed766;
+    text-decoration: underline;
+}
+
+.textos {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    background-color: #fed766;
+    width: 100%;
+    height: 50px;
+    line-height: 100px;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #fed766;
+}
+
+.cabecalho_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.cabecalho_titulo {
+    color: #fed766;
+    font-family: 'Righteous', cursive;
+}
+
+.cabecalho_subtitulo {
+    font-family: 'Rubik', sans-serif;
+}
+
+.cabecalho_menu {
+    display: flex;
+}
+
+.cabecalho_link {
+    color: #fed766;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 160px;
+    gap: 20px;
+}
+
+.conteudo_princ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fed766;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.texto {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+
+input {
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #fed766;
+    border-radius: 22px;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #fed766;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.result {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    background-color: #fed766;
+    width: 100%;
+    height: 50px;
+    line-height: 100px;
+}

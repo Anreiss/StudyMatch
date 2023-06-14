@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #fed766;
+}
+
+.cabecalho_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.cabecalho_titulo {
+    color: #fed766;
+    font-family: 'Righteous', cursive;
+}
+
+.cabecalho_subtitulo {
+    font-family: 'Rubik', sans-serif;
+}
+
+.cabecalho_menu {
+    display: flex;
+}
+
+.cabecalho_link {
+    color: #fed766;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 500px 30px 500px;
+    gap: 10px;
+}
+
+.titulo_perg {
+    font-family: 'Righteous', cursive;
+}
+
+.conteudo_perg {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 3px solid #fed766;
+    padding: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+
+.cont_radios {
+    background-color: #fed766;
+}
+
+button {
+    background-color: #fed766;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(155, 155, 155, 0.25);
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fed766;
+    padding: 30px 0px 30px 0px;
+    gap: 5px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/graf.css">
+    <title>Graficos</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_1">
+            <img class="cabecalho_imagem" src="assets/imagens/icons8-luz-acesa-50.png" alt="icone">
+            <div>
+                <h1 class="cabecalho_titulo">StudyMath</h1>
+                <p class="cabecalho_subtitulo">Explore, aprenda, cresça</p>
+            </div>
+        </nav>
+        <nav class="cabelhado_menu">
+            <a class="cabecalho_link" target="_blank" href="index.html">Início</a>
+            <a class="cabecalho_link" target="_blank" href="estude.html">Estude</a>
+            <a class="cabecalho_link" href="vídeos.html" target="_blank">Videos</a>
+            <a class="cabecalho_link" target="_blank" href="pagexc.html">Exercícios</a>
+            <a class="cabecalho_link" target="_blank" href="calc.html">Calculadora</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Nível de dificuldade dos Alunos:</h1>
+        <div class="panel">
+            <div class="cont">
+                <canvas id="grafico1" style="width: 1200px;"></canvas>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <h1>Evolução dos Alunos:</h1>
+        <div class="panel">
+            <div class="cont">
+                <canvas id="grafico2" style="width: 1200px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/script/graf1.js"></script>
+    <script src="assets/script/graf2.js"></script>
+</body>
+
+</html>
